@@ -7,7 +7,7 @@ validate_login_path = dtrpg_base_url + "/validate_login.php"
 validate_credentials_path = dtrpg_base_url + "/validate_credentials.php"
 wishlist_path = dtrpg_base_url + "/wishlist.php"
 username = "rharkrader@gmail.com"
-password = "m0nk3yp0d"
+password = "ftTvLm7ESFnKfY!"
 out_file_path = "./output.html"
 
 sess = requests.Session()
