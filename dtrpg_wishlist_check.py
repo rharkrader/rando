@@ -1,5 +1,6 @@
 import requests
 import bs4
+import os
 
 dtrpg_base_url = "https://www.drivethrurpg.com"
 login_path = dtrpg_base_url + "/login.php"
@@ -7,7 +8,7 @@ validate_login_path = dtrpg_base_url + "/validate_login.php"
 validate_credentials_path = dtrpg_base_url + "/validate_credentials.php"
 wishlist_path = dtrpg_base_url + "/wishlist.php"
 username = "rharkrader@gmail.com"
-password = "ftTvLm7ESFnKfY!"
+password = os.environ["DTRPG_PWD"]
 out_file_path = "./output.html"
 
 sess = requests.Session()
