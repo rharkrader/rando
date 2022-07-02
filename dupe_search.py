@@ -2,7 +2,7 @@ import os
 import zipfile
 import shutil
 
-dir_to_check = "F:/OneDrive/RPGs"
+dir_to_check = "D:/OneDrive/RPGs"
 out_file_path = "./dupe_list.txt"
 
 file_list = list()
